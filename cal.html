@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>saurabh gosavi</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: beige;
+
+        }
+        .app-title{
+            text-align: center;
+            color: rgb(243, 9, 9);
+        }
+        .calculator-container{
+            background-color: rgb(12, 13, 13);
+            height: 450px;
+            width: 350px;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            border-radius: 15px;
+            padding: 10px;
+       
+
+        }
+        .brand-name{
+            text-align: right;
+            margin-right: 40px;
+            font-weight: lighter;
+            color: rgb(240, 248, 248);
+        }
+        .btn:hover{
+            border-radius: 10px;
+            transition: 0.3s;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgb(252, 252, 249);
+
+        }
+        .btn-special{
+            background-color: rgb(35, 207, 93);
+            color: white;
+        }
+        .btn1-special{
+            background-color: rgb(17, 190, 243);
+            color: white;
+        }
+        .btn2-special{
+            background-color: rgb(238, 9, 47);
+            color: white;
+        }
+        .calculator-screen{
+            margin-top: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 280px;
+            font-size: 50px;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(181, 241, 172);
+           
+
+        }
+        .btn{
+            font-size: 20px;
+            height: 50px;
+            width: 50px;
+            margin: 5px;
+            border-radius: 5px white;
+            border: 5px rgb(245, 13, 13);
+            font-family: 'poppins', sans-serif;
+            background-color: black;
+            color: white;
+        }
+        .button-container{
+            background-color: rgb(15, 15, 15);
+            margin-top: 20px;
+            margin-left: 30px;
+            margin-right: 30px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            border: 2px white;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 class="app-title">CALCULATOR</h1>
+    <div class="calculator-container">
+        <p class="brand-name">calci</p>
+        <input type="text" class="calculator-screen"/>
+
+        <div class="button-container">
+            <button class="btn btn1-special">CE</button>
+            <button class="btn btn2-special">Del</button>
+            <button class="btn btn1-special">Auto</button>
+            <button class="btn btn-special">ON</button>
+
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn">+</button>
+           
+
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn">-</button>
+           
+
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="btn">x</button>
+           
+
+            <button class="btn">.</button>
+            <button class="btn">0</button>
+            <button class="btn">/</button>
+            <button class="btn btn-special">=</button>
+
+        </div>
+       
+    </div>
+</body>
+</html>
